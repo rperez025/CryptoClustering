@@ -43,15 +43,15 @@ _Optimize Clusters with Principal Component Analysis_
 
 _Find the Best Value for k Using the PCA Data_
 
-1. Use the elbow method on the PCA data to find the best value for k using the following steps:
-   - Create a list with the number of k-values from 1 to 11.
-   - Create an empty list to store the inertia values.
-   - Create a for loop to compute the inertia with each possible value of k.
-   - Create a dictionary with the data to plot the Elbow curve.
-   - Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
-   - Answer the following question in my notebook:
-     * What is the best value for k when using the PCA data?
-     * Does it differ from the best k value found using the original data?
+1. Used the elbow method on the PCA data to find the best value for k using the following steps:
+   - Created a list with the number of k-values from 1 to 11.
+   - Created an empty list to store the inertia values.
+   - Created a for loop to compute the inertia with each possible value of k.
+   - Created a dictionary with the data to plot the Elbow curve.
+   - Plotted a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
+   - Answered the following question in my notebook:
+     * What is the best value for k when using the PCA data? The best value for K continues to be 4.
+     * Does it differ from the best k value found using the original data? No, both values are the same.
 
 _Cluster Cryptocurrencies with K-means Using the PCA Data_
 
